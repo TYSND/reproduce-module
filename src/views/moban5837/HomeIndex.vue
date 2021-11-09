@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="{
+    <div :class="{
       'section': true,
       'section-select': selectNode === 'home',
       'home': true
@@ -100,7 +100,7 @@ export default {
 
 <style scoped>
 .home-index {
-  width: 100vw;
+  width: 100%;
 }
 .header-nav {
   width: 100%;
